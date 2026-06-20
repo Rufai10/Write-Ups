@@ -1,4 +1,4 @@
-![cover](assets/banners/Rufai-Banner.svg)
+![alt text](assets/badges/Rufai-Banner.svg)
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=800&color=00E5FF&center=true&vCenter=true&width=950&lines=Rufai10+%E2%80%94+Write-Ups+Repository;Structured+Offensive+Security+Research" alt="Rufai10 — Write-Ups Repository">
