@@ -80,44 +80,26 @@ The emphasis is on understanding the reasoning behind each step — not just lis
 
 \# 🗂 Repository Structure
 
+```
 WRITE-UPS/
-
-
-
 │
-
-
-
 ├── Web/
 │   ├── Web-Applications/
 │   ├── API-Security/
 │   ├── Bug-Bounty/
 │   └── Resources/
-
-
 │
-
-
-
 ├── Privilege-Escalation/
 │   ├── Linux/
 │   ├── Windows/
 │   └── Resources/
-
-
-
 │
-
-
-
-├── Assets/
+├── assets/
 │   ├── badges/
-│   ├── banners/
-│   └── images/
-
-
-
+│   └── banners/
+│
 └── README.md
+```
 
 Each folder contains categorized write-ups organized by domain and platform.
 
