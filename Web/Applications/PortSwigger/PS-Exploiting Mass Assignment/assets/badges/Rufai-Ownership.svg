@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="160" viewBox="0 0 1200 160" role="img" aria-label="Rufai Ownership Notice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#030f03"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ff41"/>
+      <stop offset="50%" stop-color="#008f11"/>
+      <stop offset="100%" stop-color="#00ff41"/>
+      <animate attributeName="x1" values="0;1;0" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;0;1" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.8" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="160" rx="18" fill="url(#bg)"/>
+
+  <pattern id="dots" width="30" height="30" patternUnits="userSpaceOnUse">
+    <circle cx="1" cy="1" r="1" fill="#00ff41" fill-opacity="0.06"/>
+  </pattern>
+  <rect width="1200" height="160" rx="18" fill="url(#dots)"/>
+
+  <rect x="0" y="0" width="6" height="160" rx="3" fill="url(#acc)"/>
+  <rect x="6" y="0" width="1194" height="2" rx="1" fill="url(#acc)" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <g transform="translate(34, 40)">
+    <rect x="0" y="0" width="80" height="80" rx="14" fill="#0a1a0a" stroke="#00ff41" stroke-opacity="0.25" stroke-width="1"/>
+    <path d="M40 14l20 7v16c0 16-11 29-20 34C31 66 20 53 20 37V21l20-7z" fill="none" stroke="#00ff41" stroke-width="2.2" opacity="0.9"/>
+    <path d="M30 41l7 7 14-16" fill="none" stroke="#00ff41" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+      <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <text x="138" y="62" font-family="ui-monospace,monospace" font-size="22" font-weight="800" fill="#00ff41" filter="url(#glow)">Ownership &amp; Attribution</text>
+  <line x1="138" y1="74" x2="780" y2="74" stroke="#00ff41" stroke-opacity="0.15" stroke-width="1"/>
+
+  <text font-family="ui-monospace,monospace" font-size="13.5" fill="#4ade80" opacity="0.85">
+    <tspan x="138" y="96">Independent personal research · authored solely by Rufai</tspan>
+    <tspan x="138" dy="20">Not affiliated with any team or organization</tspan>
+  </text>
+
+  <rect x="960" y="44" width="210" height="72" rx="12" fill="#0a1a0a" stroke="#00ff41" stroke-opacity="0.20" stroke-width="1"/>
+  <text x="1065" y="76" text-anchor="middle" font-family="ui-monospace,monospace" font-size="11" fill="#3a7a3a" font-weight="700" letter-spacing="2">AUTHOR</text>
+  <text x="1065" y="100" text-anchor="middle" font-family="ui-monospace,monospace" font-size="19" font-weight="800" fill="#00ff41" filter="url(#glow)">Rufai</text>
+
+  <rect x="6" y="158" width="1194" height="2" rx="1" fill="url(#acc)" opacity="0.3"/>
+</svg>
