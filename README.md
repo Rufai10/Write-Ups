@@ -89,63 +89,10 @@ WRITE-UPS/
 
 
 ├── Web/
-
-
-
-│   └── Applications/
-
-
-
-│       └── PortSwigger/
-
-
-
-│           ├── PS - Exploiting XInclude to retrieve files/
-
-
-
-│           ├── PS-2FA-Simple Bypass/
-
-
-
-│           ├── PS-Blind SQL Injection with Time Delays/
-
-
-
-│           ├── PS-CSRF Request Method Token Validation/
-
-
-
-│           ├── PS-DOM-based open redirection/
-
-
-
-│           ├── PS-Exploiting Mass Assignment/
-
-
-
-│           ├── PS-JWT Authentication Bypass/
-
-
-
-│           ├── PS-Manipulating WebSocket messages to exploit vuln/
-
-
-
-│           ├── PS-Reflected XSS Encoded Angle Brackets in JS/
-
-
-
-│           ├── PS-Reflected XSS — HTML Context/
-
-
-
-│           ├── PS-Reflected-XSS-Most-Tags-Blocked/
-
-
-
-│           └── PS-Stored-xss-anchor-href/
-
+│   ├── Web-Applications/
+│   ├── API-Security/
+│   ├── Bug-Bounty/
+│   └── Resources/
 
 
 │
