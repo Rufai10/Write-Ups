@@ -1,4 +1,4 @@
-!\[cover](assets/banners/Rufai-Banner.svg)
+![alt text](assets/badges/Rufai-Banner.svg)
 
 
 
@@ -153,6 +153,9 @@ WRITE-UPS/
 
 
 ├── Privilege-Escalation/
+│   ├── Linux/
+│   ├── Windows/
+│   └── Resources/
 
 
 
@@ -160,19 +163,10 @@ WRITE-UPS/
 
 
 
-├── assets/
-
-
-
+├── Assets/
 │   ├── badges/
-
-
-
-│   └── banners/
-
-
-
-│
+│   ├── banners/
+│   └── images/
 
 
 
