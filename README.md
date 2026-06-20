@@ -67,35 +67,6 @@ The structure is designed to scale cleanly as new challenges and case studies ar
 
 ---
 
-## 🌐 Web Application Security
-
-### PortSwigger Web Security Academy
-
-| # | Lab | Category | Difficulty |
-|---|-----|----------|------------|
-| 01 | [Exploiting XInclude to Retrieve Files](Web/Applications/PortSwigger/PS%20-%20Exploiting%20XInclude%20to%20retrieve%20files/README.MD) | XXE Injection | Practitioner |
-| 02 | [2FA Simple Bypass](Web/Applications/PortSwigger/PS-2FA-Simple%20Bypass/README.MD) | Authentication | Apprentice |
-| 03 | [Blind SQL Injection with Time Delays](Web/Applications/PortSwigger/PS-Blind%20SQL%20Injection%20with%20Time%20Delays/README.MD) | SQL Injection | Practitioner |
-| 04 | [CSRF Request Method Token Validation](Web/Applications/PortSwigger/PS-CSRF%20Request%20Method%20Token%20Validation/README.MD) | CSRF | Practitioner |
-| 05 | [DOM-Based Open Redirection](Web/Applications/PortSwigger/PS-DOM-based%20open%20redirection/README.MD) | DOM-Based Attacks | Practitioner |
-| 06 | [Exploiting Mass Assignment](Web/Applications/PortSwigger/PS-Exploiting%20Mass%20Assignment/README.MD) | API Testing | Apprentice |
-| 07 | [JWT Authentication Bypass](Web/Applications/PortSwigger/PS-JWT%20Authentication%20Bypass/README.MD) | Authentication | Apprentice |
-| 08 | [Manipulating WebSocket Messages to Exploit Vulnerabilities](Web/Applications/PortSwigger/PS-Manipulating%20WebSocket%20messages%20to%20exploit%20vuln/README.MD) | WebSockets | Apprentice |
-| 09 | [Reflected XSS — Encoded Angle Brackets in JS](Web/Applications/PortSwigger/PS-Reflected%20XSS%20Encoded%20Angle%20Brackets%20in%20JS/README.MD) | Cross-Site Scripting | Practitioner |
-| 10 | [Reflected XSS — HTML Context](Web/Applications/PortSwigger/PS-Reflected%20XSS%20%E2%80%94%20HTML%20Context/README.MD) | Cross-Site Scripting | Apprentice |
-| 11 | [Reflected XSS — Most Tags Blocked](Web/Applications/PortSwigger/PS-Reflected-XSS-Most-Tags-Blocked/README.MD) | Cross-Site Scripting | Practitioner |
-| 12 | [Stored XSS — Anchor href](Web/Applications/PortSwigger/PS-Stored-xss-anchor-href/README.MD) | Cross-Site Scripting | Apprentice |
-
----
-
-## 🔐 Privilege Escalation
-
-| # | Topic | Platform | Status |
-|---|-------|----------|--------|
-| — | Coming soon | — | 🔲 |
-
----
-
 ## 🧠 Content Scope
 
 Write-ups in this repository may include:
@@ -149,19 +120,6 @@ It reflects methodology.
 It demonstrates disciplined thinking.
 
 This repository values structured analysis over flashy output.
-
----
-
-## 🛠 Tools Used
-
-| Tool | Purpose |
-|------|---------|
-| Kali Linux | Primary operating environment |
-| Burp Suite | Web traffic interception and manipulation |
-| Firefox | Browser interaction and testing |
-| VS Code | Documentation and write-up authoring |
-| GitHub | Version control and public sharing |
-| PortSwigger Web Security Academy | Vulnerable target lab environment |
 
 ---
 
